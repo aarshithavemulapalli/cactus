@@ -1,0 +1,178 @@
+{
+    "CCON=O": {"druglike": true, "PAINS_filter": false, "BBB_permeant": true, "GI_absorption": true},
+    "C1CN2CC3=CCOC4CC(=O)N5C6C4C3CC2C61C7=CC=CC=C75": {"druglike": false, "PAINS_filter": true, "BBB_permeant": false, "GI_absorption": false},
+    "C1C(C(C(C(C1N)OC2C(C(C(C(O2)CN)O)O)O)O)OC3C(C(C(C(O3)CO)O)N)O)N": {"druglike": true, "PAINS_filter": true, "BBB_permeant": false, "GI_absorption": true},
+    "CSSC": {"druglike": true, "PAINS_filter": false, "BBB_permeant": false, "GI_absorption": true},
+    "C(C(CCl)O)Cl": {"druglike": true, "PAINS_filter": true, "BBB_permeant": true, "GI_absorption": true},
+    "C1CCOC1": {"druglike": false, "PAINS_filter": false, "BBB_permeant": true, "GI_absorption": false},
+    "C1=C(C=C(C(=C1Cl)O)Cl)Cl": {"druglike": false, "PAINS_filter": true, "BBB_permeant": false, "GI_absorption": false},
+    "CC1=C([N+](=O)C2=CC=CC=C2N1[O-])C(=O)NCCO": {"druglike": true, "PAINS_filter": false, "BBB_permeant": false, "GI_absorption": true},
+    "C#C": {"druglike": false, "PAINS_filter": false, "BBB_permeant": true, "GI_absorption": true},
+    "COC1=CC(=CC(=C1OC)OC)C2C3C(COC3=O)C(C4=CC5=C(C=C24)OCO5)O": {"druglike": true, "PAINS_filter": true, "BBB_permeant": true, "GI_absorption": true},
+    "C1=CC(=CC=C1O)O": {"druglike": true, "PAINS_filter": false, "BBB_permeant": false, "GI_absorption": true},
+    "CC1=CC(=CC=C1)O": {"druglike": false, "PAINS_filter": false, "BBB_permeant": true, "GI_absorption": true},
+    "C1=CC=C(C=C1)O": {"druglike": true, "PAINS_filter": true, "BBB_permeant": false, "GI_absorption": true},
+    "C1=CC=C2C(=C1)C(=C(C(=O)O2)CC3=C(C4=CC=CC=C4OC3=O)O)O": {"druglike": false, "PAINS_filter": true, "BBB_permeant": true, "GI_absorption": false},
+    "CC(=O)O": {"druglike": true, "PAINS_filter": false, "BBB_permeant": true, "GI_absorption": true},
+    "CC1(C(N2C(S1)C(C2=O)NC(=O)C(C3=CC=CC=C3)N)C(=O)O)C": {"druglike": false, "PAINS_filter": true, "BBB_permeant": false, "GI_absorption": false},
+    "C1=CC=C(C=C1)COC(=O)C2=CC=CC=C2": {"druglike": true, "PAINS_filter": true, "BBB_permeant": true, "GI_absorption": true},
+    "CC(C)(CO)C(C(=O)NCCCO)O": {"druglike": false, "PAINS_filter": false, "BBB_permeant": false, "GI_absorption": true},
+    "C(Br)(Br)(Br)Br": {"druglike": true, "PAINS_filter": true, "BBB_permeant": true, "GI_absorption": false},
+    "CCC1C(C(C(C(=O)C(CC(C(C(C(C(C(=O)O1)C)OC2CC(C(C(O2)C)O)(C)OC)C)OC3C(C(CC(O3)C)N(C)C)O)(C)OC)C)C)O)(C)O": {"druglike": false, "PAINS_filter": true, "BBB_permeant": true, "GI_absorption": false},
+    "CC1=C2C(C(=O)C3(C(CC4C(C3C(C(C2(C)C)(CC1OC(=O)C(C(C5=CC=CC=C5)NC(=O)C6=CC=CC=C6)O)O)OC(=O)C7=CC=CC=C7)(CO4)OC(=O)C)O)C)OC(=O)C": {"druglike": true, "PAINS_filter": false, "BBB_permeant": false, "GI_absorption": false},
+    "CC1C(C(CC(O1)OC2C(OC(CC2O)OC3C(OC(CC3O)OC4CCC5(C(C4)CCC6C5CC(C7(C6(CCC7C8=CC(=O)OC8)O)C)O)C)C)C)O)O": {"druglike": false, "PAINS_filter": true, "BBB_permeant": true, "GI_absorption": true},
+    "COC1=C2C3=C(C(=O)OCC3)C(=O)OC2=C4C5C=COC5OC4=C1": {"druglike": true, "PAINS_filter": false, "BBB_permeant": false, "GI_absorption": true},
+    "C1=CC(=CC=C1CC2=CC=C(C=C2)N=C=O)N=C=O": {"druglike": false, "PAINS_filter": true, "BBB_permeant": false, "GI_absorption": true},
+    "CC(=O)NCC1CN(C(=O)O1)C2=CC(=C(C=C2)N3CCOCC3)F": {"druglike": true, "PAINS_filter": false, "BBB_permeant": true, "GI_absorption": true},
+    "CCCCCCCCCCCCCCCC(=O)O": {"druglike": true, "PAINS_filter": true, "BBB_permeant": false, "GI_absorption": true},
+    "CN1CCC23C4C(=O)CCC2(C1CC5=C3C(=C(C=C5)OC)O4)O": {"druglike": false, "PAINS_filter": false, "BBB_permeant": true, "GI_absorption": true},
+    "CCCCNC(=O)N1C2=CC=CC=C2N=C1NC(=O)OC": {
+            "MolecularWeight": 237.29
+        },
+    "CC1=CN=C(S1)NC(=O)C2=C(C3=CC=CC=C3S(=O)(=O)N2C)O": {
+            "MolecularWeight": 312.34
+        },
+    "C(C1C2C(C(C(O1)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(C(C7O)O)OC8C(OC(O2)C(C8O)O)CO)CO)CO)CO)CO)CO)O)O)O": {
+            "MolecularWeight": 540.50
+        },
+    "CC(=O)CCC(=O)O": {
+            "MolecularWeight": 118.09
+        },
+    "CCCCCCC(CC=CCCCCCCCC(=O)O)O": {
+            "MolecularWeight": 256.42
+        },
+        "CC1=C(C=CC=C1C2=CC=CC=C2)COC(=O)C3C(C3(C)C)C=C(C(F)(F)F)Cl": {
+            "MolecularWeight": 318.78
+        },
+        "CCC(C)(C)O": {
+            "MolecularWeight": 74.12
+        },
+        "CC1CCC(C(C1)O)C(C)C": {
+            "MolecularWeight": 128.17
+        },
+        "C1=CC=C2C(=C1)C=CC(=O)O2": {
+            "MolecularWeight": 146.14
+        },
+        "C(=O)(O)[O-].[Na+]": {
+            "MolecularWeight": 84.00
+        },
+        "CCCC[Sn](CCCC)(Cl)Cl": {
+            "MolecularWeight": 310.40
+        },
+        "C(C(=O)O)C(CC(=O)O)(C(=O)O)O": {
+            "MolecularWeight": 150.10
+        },
+        "CCC(=O)[O-].[Na+]": {
+            "MolecularWeight": 96.06
+        },
+        "CN1CCC23C4C(=O)CCC2(C1CC5=C3C(=C(C=C5)OC)O4)O": {
+            "MolecularWeight": 310.32
+        },
+        "CCCC=O": {
+            "MolecularWeight": 72.11
+        },
+        "CN(C)C(=S)SSC(=S)N(C)C": {
+            "MolecularWeight": 208.34
+        },
+        "CC(=O)OCC1=C(N2C(C(C2=O)NC(=O)CSC3=CC=NC=C3)SC1)C(=O)O": {
+            "MolecularWeight": 284.30
+        },
+        "C(CC(=O)NC(CS)C(=O)NCC(=O)O)C(C(=O)O)N": {
+            "MolecularWeight": 234.23
+        },
+        "C1=CC(=CC=C1C(=O)O)N": {
+            "MolecularWeight": 137.13
+        },
+        "C(C(C(C(C=O)O)O)O)O": {
+            "MolecularWeight": 136.11
+        },
+        "CCCCCCCC=CCCCCCCCC(=O)O": {
+            "MolecularWeight": 256.42
+        },
+        "CC1C=CC=CCCC=CC=CC=CC=CC(CC2C(C(CC(O2)(CC(C(CCC(CC(CC(CC(=O)OC(C(C1O)C)C)O)O)O)O)O)O)O)C(=O)O)OC3C(C(C(C(O3)C)O)N)O": {
+            "MolecularWeight": 542.51
+        },
+        "CC1C(C(C(C(O1)OC2CCC3(C4CCC5(C(CCC5(C4CCC3(C2)O)O)C6=CC(=O)OC6)C)C=O)O)O)O": {
+            "MolecularWeight": 436.50
+        },
+        "CCCCCCCC(=O)OC": {
+            "MolecularWeight": 172.26
+        },
+        "C(C(=O)CO)O": {
+            "MolecularWeight": 90.08
+        },
+        "CC1=C(C(=O)CC1OC(=O)C2C(C2(C)C)C=C(C)C)CC=C": {
+            "MolecularWeight": 228.32
+        },
+        "COC1C(CC2CN3CCC4=C(C3CC2C1C(=O)OC)NC5=C4C=CC(=C5)OC)OC(=O)C6=CC(=C(C(=C6)OC)OC)OC": {
+            "MolecularWeight": 408.51
+        },
+        "C1=CC=C(C=C1)N": {
+            "MolecularWeight": 93.11
+        },
+        "CC12CCC3C(C1CCC2O)CCC4=CC(=O)CCC34": {
+            "MolecularWeight": 278.41
+        },
+        "C1=CC(=CC=C1[N+](=O)[O-])Cl": {
+            "MolecularWeight": 174.56
+        },
+        "CN(C)NC(=O)CCC(=O)O": {
+            "MolecularWeight": 118.13
+        },
+        "CCOC(=O)CC(CC(=O)OCC)(C(=O)OCC)O": {
+            "MolecularWeight": 206.28
+        },
+        "CC1=CC(=C(C(=C1)C(C)(C)C)O)C(C)(C)C": {
+            "MolecularWeight": 178.26
+        },
+        "CCC(C)CCCC(=O)NC(CCN)C(=O)NC(C(C)O)C(=O)NC(CCN)C(=O)NC1CCNC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC1=O)CCN)CC(C)C)CC(C)C)CCN)CCN)C(C)O": {
+            "MolecularWeight": 563.70
+        },
+        "CC1=CC2C(C(C1=O)O)(C3(CC(C(C34CO4)O2)O)C)CO": {
+            "MolecularWeight": 228.33
+        },
+        "CCCCCCCC=O": {
+            "MolecularWeight": 128.17
+        },
+        "C1CCNC(C1)C2=CN=CC=C2": {
+            "MolecularWeight": 136.18
+        },
+        "CC1(C(C1C(=O)OC(C#N)C2=CC(=CC=C2)OC3=CC=CC=C3)C=C(Br)Br)C": {
+            "MolecularWeight": 382.34
+        },
+        "CC=C(C1=CC=C(C=C1)O)C(=CC)C2=CC=C(C=C2)O": {
+            "MolecularWeight": 228.26
+        },
+        "CNCC(C1=CC(=C(C=C1)O)O)O": {
+            "MolecularWeight": 153.14
+        },
+        "C1CC(NC1)C(=O)O": {
+            "MolecularWeight": 103.12
+        },
+        "C(C(=CC(=O)O)C(=O)O)C(=O)O": {
+            "MolecularWeight": 132.11
+        },
+        "C1=CC=C2C(=C1)NC=N2": {
+            "MolecularWeight": 92.10
+        },
+        "CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl": {
+            "MolecularWeight": 370.82
+        },
+        "CC1CC2C3CCC4=CC(=O)C=CC4(C3(C(CC2(C1(C(=O)CO)O)C)O)F)C": {
+            "MolecularWeight": 320.41
+        },
+        "C1=CC(=CC=C1C(=O)O)C(=O)O": {
+            "MolecularWeight": 166.14
+        },
+        "C1=C(N=C(S1)N=C(N)N)CSCCC(=NS(=O)(=O)N)N": {
+            "MolecularWeight": 252.29
+        },
+        "C=CC(=O)O": {
+            "MolecularWeight": 72.06
+        },
+        "CC(C)C(C(=O)O)N": {
+            "MolecularWeight": 117.15
+        }
+
+    
+}

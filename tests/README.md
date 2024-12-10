@@ -1,10 +1,24 @@
 # CACTUS 🌵 | Chemistry Agent Connecting Tool Usage to Science
+
+[![arXiv](https://img.shields.io/badge/arXiv-2405.00972-b31b1b.svg)](https://arxiv.org/abs/2405.00972)
+[![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
+[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
+[![Rye](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/rye/main/artwork/badge.json
+)](https://rye.astral.sh/)
+
+
+[![Spaces](https://img.shields.io/badge/Open_in_HF_Spaces-yellow?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/spaces/PNNL/cactus-demo)
+
+
 # Introduction 
 
 CACTUS is an innovative tool-augmented language model designed to assist researchers and chemists in various chemistry-related tasks. By integrating state-of-the-art language models with a suite of powerful cheminformatics tools, CACTUS provides an intelligent and efficient solution for exploring chemical space, predicting molecular properties, and accelerating drug discovery. Just as the cactus thrives in the harsh desert environment, adapting to limited resources and extreme conditions, CACTUS has been implemented by Pacific Northwest National Laboratory (PNNL) Scientists to navigate the complex landscape of chemical data and extract valuable insights.
 
 <img width="1000" alt="Cactus_header" src="assets/workflow_diagram_V2_white_bkg.png"> 
 
+# Preprint Available [here](https://arxiv.org/abs/2405.00972)
+
+# Demo (API-only) on HuggingFace Spaces [here](https://huggingface.co/spaces/PNNL/cactus-demo)
 
 ## Running Cactus 🏃
 
@@ -13,11 +27,10 @@ Getting started with Cactus is as simple as:
 ```python
 from cactus.agent import Cactus
 
-Model = Cactus(model_name="gpt-3.5-turbo", model_type="api")
+Model = Cactus(model_name="google/gemma7b", model_type="vllm")
 Model.run("What is the molecular weight of the smiles: OCC1OC(O)C(C(C1O)O)O")
 ```
-### or run the runcactus.py python file at terminal as
-python runcactus.py
+
 ## Installation 💻
 
 To install `cactus`:

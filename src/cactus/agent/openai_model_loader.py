@@ -2,10 +2,13 @@
 
 import os
 
+from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI, OpenAI
 
+load_dotenv()
+api_key = os.getenv("OPENAI_API_KEY")
 
-def load_openai_model(model_name, *, temperature, api_key=None):
+def load_openai_model(model_name, *, temperature, api_key):
     """Load an OpenAI chat model into LangChain.
 
     Parameters
@@ -44,5 +47,4 @@ def load_openai_model(model_name, *, temperature, api_key=None):
             temperature=temperature,
             api_key=api_key,
         )
-
     return llm
