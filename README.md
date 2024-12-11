@@ -165,7 +165,14 @@ This attack manipulates the external dataset referenced by the Cactus agent. By 
 To reproduce the attack:
 1. Prepare the dataset by running:
    ```bash
-   python benchmark_creation.py
+   python run_benchmark.py \
+    --model-name "gpt-3.5-turbo" \
+    --model-type "api" \
+    --input-csv "path/to/benchmark_dataset.csv" \
+    --output-csv "path/to/output_results.csv" \
+    --cache-dir "path/to/cache_dir" \
+    --log-file "path/to/log_file.log"
+
    python runcactus.py
    ```
 
