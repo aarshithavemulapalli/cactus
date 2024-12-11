@@ -11,7 +11,7 @@ Model = Cactus(
 )
 
 # Test input query
-test_input = "Calculate the Molecular Weight of the smiles: CCCCNC(=O)N1C2=CC=CC=C2N=C1NC(=O)OC"
+test_input = "Is the smiles: CCON=O , druglike ?"
 
 # Run the query
 output = Model.run(test_input)

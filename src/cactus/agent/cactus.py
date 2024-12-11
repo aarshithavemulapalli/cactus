@@ -89,13 +89,28 @@ class Cactus:
 
     def run(self, prompt):
         """Run the Cactus agent and check for poisoned dataset entries."""
-        # Inside the Cactus.run method
-        smiles = prompt.split(":")[-1].strip()  # Extract SMILES from the input
+        
+        def extract_smiles(query):
+            if 'Is the smiles:' in query:
+                start = query.find('Is the smiles:') + len('Is the smiles:')
+                end = query.find(',', start)
+                if end == -1:
+                    end = len(query)
+                return query[start:end].strip()
+            elif 'Calculate the Molecular Weight of the smiles:' in query:
+                start = query.find('Calculate the Molecular Weight of the smiles:') + len(
+                    'Calculate the Molecular Weight of the smiles:')
+                return query[start:].strip()
+            else:
+                return query.split(":")[-1].strip()
 
-        # Check for the SMILES string in the dataset
+        smiles = extract_smiles(prompt)
+
         if smiles in self.dataset:
             print(f"[Match Found] SMILES: {smiles}")
             return self.dataset[smiles]
         else:
             print(f"No match found for SMILES: {smiles}")
             return "Entry not found in dataset."
+
+
