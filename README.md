@@ -60,23 +60,6 @@ python benchmark_creation.py
 
 This will generate a readable dataset named `QuestionsChem.csv` for use with the `Cactus` agent.
 
-## Models Tested
-
-For this application we are benchmarking the following models:
-
-| Model        | model_name                         |
-|--------------|------------------------------------|
-| `llama2-7b`  | `meta-llama/Llama-2-7b-hf`         |
-| `llama3-8b`  | `meta-llama/Meta-Llama-3-8B`       |
-| `mistral-7b` | `mistralai/Mistral-7B-v0.1`        |
-| `gemma-7b`   | `google/gemma-7b-it`               |
-| `falcon-7b`  | `tiiuae/falcon-7b`                 |
-| `MPT-7b`     | `mosaicml/mpt-7b`                  |
-| `Phi-2`      | `microsoft/phi-2`                  |
-| `Phi-3`      | `microsoft/Phi-3-mini-4k-instruct` |
-| `OLMo-1b`    | `allenai/OLMo-1B`                  |
-
-These models were selected based on their strong performance in natural language tasks and their potential for adaptation to domain-specific applications.
 
 ## Tools Available
 
@@ -96,27 +79,3 @@ For the initial release, we have simple cheminformatics tools available:
 
 ⚠️ Notice: These tools currently expect a SMILES as input, tools for conversion between identifiers are available but not yet working as intended. Fix to come soon.
 
-## Future Directions
-
-We are continuously working on improving CACTUS and expanding its capabilities for molecular discovery. Some of our planned features include:
-
-    🧬 Integration with physics-based models for 3D structure prediction and analysis
-    🔧 Support for advanced machine learning techniques (e.g., graph neural networks)
-    🎯 Enhanced tools for target identification and virtual screening    
-    📜 Improved interpretability and explainability of the model's reasoning process
-
-We welcome contributions from the community and are excited to collaborate with researchers and developers to further advance the field of AI-driven drug discovery.
-
-## Citation 
-
-If you use CACTUS in your research, please cite our preprint: 
-```bibtex
-@article{mcnaughton2024cactus,
-    title={CACTUS: Chemistry Agent Connecting Tool-Usage to Science},
-    author={Andrew D. McNaughton and Gautham Ramalaxmi and Agustin Kruel and Carter R. Knutson and Rohith A. Varikoti and Neeraj Kumar},
-    year={2024},
-    eprint={2405.00972},
-    archivePrefix={arXiv},
-    primaryClass={cs.CL}
-}
-```
